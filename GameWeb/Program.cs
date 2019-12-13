@@ -16,6 +16,9 @@ namespace GameWeb
         {
             //This is Test
             //Commit changes
+            int i = 0;
+            i = 1;
+            int a = i++;
             CreateWebHostBuilder(args).Build().Run();
         }
 
